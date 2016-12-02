@@ -1,166 +1,414 @@
 <?php include 'header.php' ?>
-<section class="section about" id="about">
+<section class="banner flex align-center">
     <div class="container">
-        <div class="about-me-box">
-            <h3>O mnie</h3>
-            <p>Jestem Przemek, mam 22 lata, od ponad pół roku interesuję się tematyką związaną z budowaniem stron internetowych. Uwielbiam kodować, bo sprawia mi to olbrzymią przyjemność i satysfakcję oraz uważam to za świetny sposób spędzania wolnego czasu :) Obecnie zajmuje się tylko Front Endem pracując w agencji interaktywnej, jednak jestem otwarty na zdobywanie wiedzy w innych technologiach w przyszłości ;)</p>
-            <h3>
-                W czym pracuję?
-            </h3>
+        <div class="box-header">
+            <h2>Welcome to Parallels</h2>
+            <h3>Clean Responsive Parallax Theme</h3>
         </div>
-        <!--.aboue-me-box-->
-        <div class="technology-container">
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/html5_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/css3_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/js5_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/sass_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/jquery_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/bootstrap_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/git_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-            <div class="technology-box col-md-4">
-                <div class="t-inside-box">
-                    <img src="images/gulp_logo.png" alt="">
-                </div>
-            </div>
-            <!--.col-md-3.technology-box-->
-        </div>
-        <!--.technology-container-->
+        <!--.box-header-->
     </div>
     <!--.container-->
-</section> 
-<!--.about-->
+</section>
+<!--.banner-->
 
-<section class="portfolio" id="portfolio">
+<section class="our-services">
     <div class="container">
-        <h3>
-            Projekty które sam realizowałem/pomagałem przy tworzeniu
-        </h3>
+        <div class="box-header-gray">
+            <h3>Our Services</h3>
+        </div>
+
+        <div class="services-item-container">
+            <div class="one-four col-md-3">
+                <div class="icon-container">
+                    <img src="images/our_icon1.png" alt="">
+                </div>
+                <h4 class="title-service">WebDesign</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu varius dui. Nunc id 
+                    scelerisque ligula. </p>
+            </div>
+            <!--.col-md-3-->
+
+            <div class="one-four col-md-3">
+                <div class="icon-container">
+                    <img src="images/our_icon2.png" alt="">
+                </div>
+                <h4 class="title-service">UIDesign</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+            </div>
+            <!--.col-md-3-->
+
+            <div class="one-four col-md-3">
+                <div class="icon-container">
+                    <img src="images/our_icon3.png" alt="">
+                </div>
+                <h4 class="title-service">Prototype</h4>
+                <p>Sed vestibulum mi quis est lacinia tempor. Praesent vitae commodo tellus. Cras eu est sem. </p>
+            </div>
+            <!--.col-md-3-->
+
+            <div class="one-four col-md-3">
+                <div class="icon-container">
+                    <img src="images/our_icon4.png" alt="">
+                </div>
+                <h4 class="title-service">Photography</h4>
+                <p>Donec tempus lacinia purus ut tincidunt. Nunc vel feugiat leo. Nunc iaculis hendrerit gravida.</p>
+            </div>
+            <!--.col-md-3-->
+        </div>
+        <!--.services-item-container-->
     </div>
-    <!--.container-->
+</section>
+<!--.our-services-->
 
+<section class="portfolio">
+    <div class="browny-box">
+        <div class="container">
+            <div class="box-header">
+                <h2>Do you like this clean theme?</h2>
+                <a class="purchase-btn">Purchase</a>
+                <a class="purchase-btn">Follow</a>
+            </div>
+            <!--.box-header-->
+        </div>
+        <!--.container-->
+    </div>
+    <!--.browny-box-->
 
-    <a class="realization-item col-md-3" href="http://vesuna-m.mmdev.org/" target="_blank">
-        <img src="images/vesuna_logo.png" alt="">
-    </a>
+    <div class="portfolio-gray-box">
+        <div class="container">
+            <div class="box-header-gray">
+                <h3>Portfolio</h3>
+            </div>
+            <!--.box-header-gray-->
+            <ul class="category-panel-list">
+                <li><a href="">Web-design</a></li>
+                <li><a href="">UI Design</a></li>
+                <li><a href="">Prototype</a></li>
+                <li><a href="">Photography</a></li>
+            </ul>
 
-    <!--.realization-item-->
+            <div class="photos-container">
+                <div class="photo-row">
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
 
-    <a class="realization-item col-md-3" href="https://hazelek.github.io/clemo/" target="_blank">
-        <img src="images/clemo_logo.png" alt="">
-    </a>
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
 
-    <!--.realization-item-->
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
 
-    <a class="realization-item col-md-3" href="http://remax-landing.mmdev.org/nowy2/" target="_blank">
-        <img src="images/remax_logo.png" alt="">
-    </a>
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
 
-    <!--.realization-item-->
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                </div>
+                <!--.photo-row-->
 
+                <div class="photo-row">
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
 
-    <a class="realization-item col-md-3" href="" target="_blank">
-        <img src="images/modern_logo.png" alt="" >
-    </a>
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
 
-    <!--.realization-item-->
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
+
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                    <div class="photo-col col-md-3">
+                        <div class="photo-b">
+
+                        </div>
+                    </div>
+                    <!--.photo-col-->
+                </div>
+                <!--.photo-row-->
+            </div>
+            <!--.photo-container-->
+            <a href="" class="load-more">Load more</a>
+        </div>
+        <!--.container-->
+    </div>
+    <!--.portfolio-main-box-->
 </section>
 <!--.portfolio-->
 
-<section class="contact" id="contact">
-    <div class="container">
-        <h3>Masz jakieś pytania?</h3>
-        <p>Pisz śmiało, postaram się odpowiedzieć w przeciągu kilku godzin.</p>
-
-        <!-- Trigger/Open The Modal -->
-        <button id="modal-but">Napisz</button>
-
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-            <!-- Modal content -->
-            <div class="modal-content-box">
-                <span class="close">x</span>
-                <h3>Formularz kontaktowy</h3>
-                <div class="contact-form-box">
-                    <form action="mail.php" method="POST" enctype="multipart/form-data">
-                        <div class="form-row">
-                            <div class="six-columns">
-                                <input name="name" type="text" placeholder="Imię*"/>
-                            </div>
-                            <!--.six-columns-->
-                            <div class="six-columns">
-                                <input name="email" type="text" placeholder="Adres e-mail*"/>
-                            </div>
-                            <!--.six-columns-->
-                        </div>
-                        <!--.form-row-->
-                        <div class="form-row">
-                            <div class="six-columns">
-                                <input name="phone" type="text" placeholder="Telefon"/>
-                            </div>
-                            <!--.six-columns-->
-                            <div class="six-columns">
-                                <input name="topic" type="text" placeholder="Temat wiadomości*"/>
-                            </div>
-                            <!--.six-columns-->
-                        </div>
-                        <!--.form-row-->
-                        <textarea name="message"placeholder="Wiadomość"></textarea>
-                        <button type="submit" class="but-details">Wyślij</button>
-                    </form>
-                </div>
-                <!--.contact-form-box-->
+<section class="pricing">
+    <div class="browny-box">
+        <div class="container">
+            <div class="box-header">
+                <h2>Pricing table</h2>
+                <h3>Clean beautiful flat table</h3>
             </div>
-
+            <!--.box-header-->
         </div>
-
-
-        <!--        <div class="contact-form-box col-md-12">
-                    <form>
-                        <fieldset><input type="text" placeholder="Imię i nazwisko*"/></fieldset>
-                        <fieldset><input type="text" placeholder="Adres e-mail*"/></fieldset>
-                        <fieldset><input type="text" placeholder="Telefon"/></fieldset>
-                        <fieldset><textarea placeholder="Wiadomość"></textarea></fieldset>
-                    </form>
-                </div>
-                .contact-form-box-->
+        <!--.container-->
     </div>
-    <!--.container-->
+    <!--.browny-box-->
+
+    <div class="our-price">
+        <div class="container">
+            <div class="box-header-gray">
+                <h3>Our Price</h3>
+            </div>
+            <div class="pricing-tables-container">
+                <div class="pricing-row">
+                    <div class="col-md-4">
+                        <div class="price-card large-card dark-bg">
+                            <h4>Website hosting</h4>
+                            <div class="cost-block"><strong>$10/month</strong></div>
+                            <ul>
+                                <li><strong>2x</strong> option 1</li>
+                                <li><strong>Free</strong> option 2</li>
+                                <li><strong>Unlimited</strong> option 3</li>
+                                <li><strong>Unlimited</strong> option 4</li>
+                                <li><strong>1x</strong> option 5</li>
+                            </ul>
+                            <a href="" class="purchase-btn">Purchase</a>
+                        </div>
+                        <!--.price-box-->
+                    </div>
+                    <!--.col-md-4-->
+                    <div class="col-md-4">
+                        <div class="price-card large-card white-bg">
+                            <h4>Reseller cloud</h4>
+                            <div class="cost-block"><strong>$135/month</strong></div>
+                            <ul>
+                                <li><strong>5x</strong> <span>option 1</span></li>
+                                <li><strong>Free</strong> <span>option 2</span></li>
+                                <li><strong>Unlimited</strong><span> option 3</span></li>
+                                <li><strong>Unlimited</strong><span> option 4</span></li>
+                                <li><strong>5x</strong><span> option 5</span></li>
+                            </ul>
+                            <a href="" class="purchase-btn">Purchase</a>
+                        </div>
+                        <!--.price-box-->
+                    </div>
+                    <!--.col-md-4-->
+                    <div class="col-md-4">
+                        <div class="price-card large-card dark-bg">
+                            <h4>Dedicated hosting</h4>
+                            <div class="cost-block"><strong>$235/month</strong></div>
+                            <ul>
+                                <li><strong>10x</strong> option 1</li>
+                                <li><strong>Free</strong> option 2</li>
+                                <li><strong>Unlimited</strong> option 3</li>
+                                <li><strong>Unlimited</strong> option 4</li>
+                                <li><strong>10x</strong> option 5</li>
+                            </ul>
+                            <a href="" class="purchase-btn">Purchase</a>
+                        </div>
+                        <!--.price-box-->
+                    </div>
+                    <!--.col-md-4-->
+                </div>
+                <!--.pricing-row-->
+
+                <div class="pricing-row">
+                    <div class="col-md-3">
+                        <div class="price-card small-card white-bg">
+                            <h4>Website hosting</h4>
+                            <div class="cost-block"><strong>$10/month</strong></div>
+                            <ul>
+                                <li><strong>2x</strong> option 1</li>
+                                <li><strong>Free</strong> option 2</li>
+                                <li><strong>Unlimited</strong> option 3</li>
+                                <li><strong>Unlimited</strong> option 4</li>
+                                <li><strong>1x</strong> option 5</li>
+                            </ul>
+                            <a href="" class="purchase-btn">Purchase</a>
+                        </div>
+                        <!--.price-card small-card-->
+                    </div>
+                    <!--.col-md-3-->
+                    <div class="col-md-3">
+                        <div class="price-card small-card white-bg">
+                            <h4>Reseller cloud</h4>
+                            <div class="cost-block"><strong>$135/month</strong></div>
+                            <ul>
+                                <li><strong>5x</strong> <span>option 1</span></li>
+                                <li><strong>Free</strong> <span>option 2</span></li>
+                                <li><strong>Unlimited</strong><span> option 3</span></li>
+                                <li><strong>Unlimited</strong><span> option 4</span></li>
+                                <li><strong>5x</strong><span> option 5</span></li>
+                            </ul>
+                            <a href="" class="purchase-btn">Purchase</a>
+                        </div>
+                        <!--.price-card small-card-->
+                    </div>
+                    <!--.col-md-3-->
+                    <div class="col-md-3">
+                        <div class="price-card small-card white-bg">
+                            <h4>Dedicated hosting</h4>
+                            <div class="cost-block"><strong>$235/month</strong></div>
+                            <ul>
+                                <li><strong>10x</strong> option 1</li>
+                                <li><strong>Free</strong> option 2</li>
+                                <li><strong>Unlimited</strong> option 3</li>
+                                <li><strong>Unlimited</strong> option 4</li>
+                                <li><strong>10x</strong> option 5</li>
+                            </ul>
+                            <a href="" class="purchase-btn">Purchase</a>
+                        </div>
+                        <!--.price-card small-card-->
+                    </div>
+                    <!--.col-md-3-->
+                    <div class="col-md-3">
+                        <div class="price-card small-card white-bg">
+                            <h4>Website hosting</h4>
+                            <div class="cost-block"><strong>$10/month</strong></div>
+                            <ul>
+                                <li><strong>2x</strong> option 1</li>
+                                <li><strong>Free</strong> option 2</li>
+                                <li><strong>Unlimited</strong> option 3</li>
+                                <li><strong>Unlimited</strong> option 4</li>
+                                <li><strong>1x</strong> option 5</li>
+                            </ul>
+                            <a href="" class="purchase-btn">Purchase</a>
+                        </div>
+                        <!--.price-card small-card-->
+                    </div>
+                    <!--.col-md-3-->
+                </div>
+                <!--.pricing-row-->
+            </div>
+            <!--.pricing-tables-container-->
+        </div>
+        <!--.container-->
+    </div>
+    <!--.our-price-->
+
+    <div class="clients-opinion">
+        <div class="container">
+            <div class="box-header-gray">
+                <h3 class="head-lines">CLIENTS ABOUT US</h3>
+                <div class="quote-left col-md-4"></div>
+                <div class="quote col-md-4">
+                    <p>Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.</p>
+                    <p class="author"><strong>#PERRY MALITON</strong></p>
+                </div>
+                <!--.quote.col-md-4-->
+                <div class="quote-right col-md-4"></div>
+            </div>
+        </div>
+        <!--.container-->
+    </div>
+    <!--.clients-opinion-->
 </section>
-<!--.contact-->
+<!--.pricing-->
+
+<section class="our-team">
+    <div class="browny-box">
+        <div class="container">
+            <div class="box-header">
+                <h2>Our team</h2>
+                <h3>We are professional and progressive team</h3>
+            </div>
+            <!--.box-header-->
+        </div>
+        <!--.container-->
+    </div>
+    <!--.browny-box-->
+
+    <div class="about-us">
+        <div class="container">
+            <div class="box-header-gray">
+                <h3>About Us</h3>
+            </div>
+            <!--.box-header-gray-->
+
+            <div class="person-details col-md-3">
+                <img src="images/about_photo1.png" alt=""/>
+                <div class="name-det">Mark Cream</div>
+                <div class="role-det">Developer</div>
+                <p>Curabitur congue libero mi, et lacinia sem blandit sit amet. Donec eu mi non magna rhoncus bibendum et eu dui. Nunc iaculis placerat sapien vel imperdiet. </p>
+            </div>
+            <!--.col-md-3-->
+            <div class="person-details col-md-3">
+                <img src="images/about_photo2.png" alt=""/>
+                <div class="name-det">Antonio paramo</div>
+                <div class="role-det">Fire effects</div>
+                <p>Etiam pulvinar libero et scelerisque cursus. Sed eu nisl congue, gravida urna imperdiet, laoreet dolor. Morbi adipiscing neque erat, tincidunt 
+                    porttitor est vestibulum ac. </p>
+            </div>
+            <!--.col-md-3-->
+            <div class="person-details col-md-3">
+                <img src="images/about_photo3.png" alt=""/>
+                <div class="name-det">Mario Ballote</div>
+                <div class="role-det">Big Boss</div>
+                <p>Donec at pulvinar dolor, et lobortis est. Phasellus nibh nisi, blandit non velit sit amet, pulvinar vehicula nulla. </p>
+            </div>
+            <!--.col-md-3-->
+            <div class="person-details col-md-3">
+                <img src="images/about_photo4.png" alt=""/>
+                <div class="name-det">Ben Bugatton</div>
+                <div class="role-det">Designer</div>
+                <p>Mauris dignissim felis quis justo 
+                    malesuada gravida. Sed quis neque condimentum, luctus augue in, dapibus sapien.</p>
+            </div>
+            <!--.col-md-3-->
+        </div>
+        <!--.container-->
+    </div>
+    <!--.about-us-->
+
+    <div class="our-skills">
+        <div class="container">
+            <div class="box-header-gray">
+                <h3 class="head-lines">OUR SKILLS</h3>
+            </div>
+            <!--.box-header-gray-->
+        </div>
+        <!--.container-->
+    </div>
+    <!--.our-skills-->
+</section>
+
+
+<section class="prefooter">
+    <div class="browny-box">
+        <div class="container">
+            <div class="box-header">
+                <h2>YOU LOOKED OVER 6000PX</h2>
+                <h2>That's Great!</h2>
+            </div>
+            <!--.box-header-->
+        </div>
+        <!--.container-->
+    </div>
+    <!--.browny-box-->
+    
+    <div class="contact-us">
+        <div class="container">
+            <div class="box-header-gray">
+                <h3>Contact Us</h3>
+            </div>
+        </div>
+        <!--.container-->
+    </div>
+    <!--.contact-us-->
+</section>
+<!--.prefooter-->
+
+
 <?php include 'footer.php' ?>
