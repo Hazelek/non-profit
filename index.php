@@ -1,414 +1,166 @@
 <?php include 'header.php' ?>
-<section class="banner flex align-center">
+<div class="banner-home">
     <div class="container">
-        <div class="box-header">
-            <h2>Welcome to Parallels</h2>
-            <h3>Clean Responsive Parallax Theme</h3>
+        <div class="bann-box">
+            <h2>BRING CLEAN WATER TO</h2>
+            <h1>AN ASIAN VILLAGE</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has beenLorem Ipsum is simply dummy text of the printing and type - setting industry. Lorem Ipsum has been</p>
+            <input type="submit" class="dark-btn"  value="Donate Now"/>
         </div>
+        <!--.bann-box-->
+    </div>
+    <!--.container-->
+</div>
+<!--.banner-home-->
+
+<section class="our-mission">
+    <div class="container">
+        <h3 class="box-header">HOW COULD <span class="text-red">YOU HELP?</span></h3>
         <!--.box-header-->
+        <div class="our-m-row">
+            <div class="one-four column-3 small-12 medium-6 large-6">
+                <img src="images/miss_1.png" alt=""/>
+                <h4>Expertise Skill</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+            </div>
+            <!--.one-four-->
+            <div class="one-four column-3 small-12 medium-6 large-6">
+                <img src="images/miss_2.png" alt=""/>
+                <h4>Give Inspiration</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+            </div>
+            <!--.one-four-->
+           <div class="one-four column-3 small-12 medium-6 large-6">
+                <img src="images/miss_3.png" alt=""/>
+                <h4>Expertise Skill</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+            </div>
+            <!--.one-four-->
+           <div class="one-four column-3 small-12 medium-6 large-6">
+                <img src="images/miss_4.png" alt=""/>
+                <h4>Give Inspiration</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+            </div>
+            <!--.one-four-->
+        </div>
+        <!--.our-m-row-->
     </div>
     <!--.container-->
 </section>
-<!--.banner-->
+<!--.our-mission-->
 
-<section class="our-services">
+<section class="about-organisation">
     <div class="container">
-        <div class="box-header-gray">
-            <h3>Our Services</h3>
+        <div class="bann-box2">
+            <h3>WE ARE<span>NONPROFIT TEAM</span></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor iont incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudti exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <input type="submit" class="dark-btn"  value="Donate Now"/>
         </div>
-
-        <div class="services-item-container">
-            <div class="one-four col-md-3">
-                <div class="icon-container">
-                    <img src="images/our_icon1.png" alt="">
-                </div>
-                <h4 class="title-service">WebDesign</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu varius dui. Nunc id 
-                    scelerisque ligula. </p>
-            </div>
-            <!--.col-md-3-->
-
-            <div class="one-four col-md-3">
-                <div class="icon-container">
-                    <img src="images/our_icon2.png" alt="">
-                </div>
-                <h4 class="title-service">UIDesign</h4>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-            </div>
-            <!--.col-md-3-->
-
-            <div class="one-four col-md-3">
-                <div class="icon-container">
-                    <img src="images/our_icon3.png" alt="">
-                </div>
-                <h4 class="title-service">Prototype</h4>
-                <p>Sed vestibulum mi quis est lacinia tempor. Praesent vitae commodo tellus. Cras eu est sem. </p>
-            </div>
-            <!--.col-md-3-->
-
-            <div class="one-four col-md-3">
-                <div class="icon-container">
-                    <img src="images/our_icon4.png" alt="">
-                </div>
-                <h4 class="title-service">Photography</h4>
-                <p>Donec tempus lacinia purus ut tincidunt. Nunc vel feugiat leo. Nunc iaculis hendrerit gravida.</p>
-            </div>
-            <!--.col-md-3-->
-        </div>
-        <!--.services-item-container-->
     </div>
+    <!--.container-->
 </section>
-<!--.our-services-->
+<!--.about-organisation-->
 
-<section class="portfolio">
-    <div class="browny-box">
-        <div class="container">
-            <div class="box-header">
-                <h2>Do you like this clean theme?</h2>
-                <a class="purchase-btn">Purchase</a>
-                <a class="purchase-btn">Follow</a>
+<section class="causes">
+    <div class="container">
+        <h3 class="box-header">FEATURED <span class="text-red">CAUSES</span></h3>
+        <div class="causes-row">
+            <div class="one-three medium-12">
+                <div class="raised-box column-6">Raised: $300,000</div>
+                <div class="goal-box column-6">Goal: $800,000</div>
+                <h4>Africa Children Need
+                    More Food, Water And 
+                    Clothes</h4>
+              <input type="submit" class="dark-btn"  value="Donate Now"/>
             </div>
-            <!--.box-header-->
+            <!--.one-three-->
+
+            <div class="one-three medium-12">
+                <div class="raised-box column-6">Raised: $300,000</div>
+                <div class="goal-box column-6">Goal: $800,000</div>
+                <h4>Africa Children Need
+                    More Food, Water And 
+                    Clothes</h4>
+              <input type="submit" class="dark-btn"  value="Donate Now"/>
+            </div>
+            <!--.one-three-->
+
+            <div class="one-three medium-12">
+                <div class="raised-box column-6">Raised: $300,000</div>
+                <div class="goal-box column-6">Goal: $800,000</div>
+                <h4>Africa Children Need
+                    More Food, Water And 
+                    Clothes</h4>
+              <input type="submit" class="dark-btn"  value="Donate Now"/>
+            </div>
+            <!--.one-three-->
         </div>
-        <!--.container-->
+        <!--.causes-row-->
     </div>
-    <!--.browny-box-->
-
-    <div class="portfolio-gray-box">
-        <div class="container">
-            <div class="box-header-gray">
-                <h3>Portfolio</h3>
-            </div>
-            <!--.box-header-gray-->
-            <ul class="category-panel-list">
-                <li><a href="">Web-design</a></li>
-                <li><a href="">UI Design</a></li>
-                <li><a href="">Prototype</a></li>
-                <li><a href="">Photography</a></li>
-            </ul>
-
-            <div class="photos-container">
-                <div class="photo-row">
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                </div>
-                <!--.photo-row-->
-
-                <div class="photo-row">
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                    <div class="photo-col col-md-3">
-                        <div class="photo-b">
-
-                        </div>
-                    </div>
-                    <!--.photo-col-->
-                </div>
-                <!--.photo-row-->
-            </div>
-            <!--.photo-container-->
-            <a href="" class="load-more">Load more</a>
-        </div>
-        <!--.container-->
-    </div>
-    <!--.portfolio-main-box-->
+    <!--.container-->
 </section>
-<!--.portfolio-->
+<!--.causes-->
 
-<section class="pricing">
-    <div class="browny-box">
-        <div class="container">
-            <div class="box-header">
-                <h2>Pricing table</h2>
-                <h3>Clean beautiful flat table</h3>
+<section class="testimonials">
+    <div class="container">
+        <h3 class="box-header">WHAT PEOPLE SAY</h3>
+        <div class="opinions-box">
+            <div class="quote-left">
+                <img src="images/quote_img.png" alt=""/>
             </div>
-            <!--.box-header-->
+            <div class="client-said">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. </p>
+            </div>
+            <!--.client-said-->
+            <h4><span class="text-red">John Doe</span> | NGO</h4>
         </div>
-        <!--.container-->
-    </div>
-    <!--.browny-box-->
-
-    <div class="our-price">
-        <div class="container">
-            <div class="box-header-gray">
-                <h3>Our Price</h3>
-            </div>
-            <div class="pricing-tables-container">
-                <div class="pricing-row">
-                    <div class="col-md-4">
-                        <div class="price-card large-card dark-bg">
-                            <h4>Website hosting</h4>
-                            <div class="cost-block"><strong>$10/month</strong></div>
-                            <ul>
-                                <li><strong>2x</strong> option 1</li>
-                                <li><strong>Free</strong> option 2</li>
-                                <li><strong>Unlimited</strong> option 3</li>
-                                <li><strong>Unlimited</strong> option 4</li>
-                                <li><strong>1x</strong> option 5</li>
-                            </ul>
-                            <a href="" class="purchase-btn">Purchase</a>
-                        </div>
-                        <!--.price-box-->
-                    </div>
-                    <!--.col-md-4-->
-                    <div class="col-md-4">
-                        <div class="price-card large-card white-bg">
-                            <h4>Reseller cloud</h4>
-                            <div class="cost-block"><strong>$135/month</strong></div>
-                            <ul>
-                                <li><strong>5x</strong> <span>option 1</span></li>
-                                <li><strong>Free</strong> <span>option 2</span></li>
-                                <li><strong>Unlimited</strong><span> option 3</span></li>
-                                <li><strong>Unlimited</strong><span> option 4</span></li>
-                                <li><strong>5x</strong><span> option 5</span></li>
-                            </ul>
-                            <a href="" class="purchase-btn">Purchase</a>
-                        </div>
-                        <!--.price-box-->
-                    </div>
-                    <!--.col-md-4-->
-                    <div class="col-md-4">
-                        <div class="price-card large-card dark-bg">
-                            <h4>Dedicated hosting</h4>
-                            <div class="cost-block"><strong>$235/month</strong></div>
-                            <ul>
-                                <li><strong>10x</strong> option 1</li>
-                                <li><strong>Free</strong> option 2</li>
-                                <li><strong>Unlimited</strong> option 3</li>
-                                <li><strong>Unlimited</strong> option 4</li>
-                                <li><strong>10x</strong> option 5</li>
-                            </ul>
-                            <a href="" class="purchase-btn">Purchase</a>
-                        </div>
-                        <!--.price-box-->
-                    </div>
-                    <!--.col-md-4-->
-                </div>
-                <!--.pricing-row-->
-
-                <div class="pricing-row">
-                    <div class="col-md-3">
-                        <div class="price-card small-card white-bg">
-                            <h4>Website hosting</h4>
-                            <div class="cost-block"><strong>$10/month</strong></div>
-                            <ul>
-                                <li><strong>2x</strong> option 1</li>
-                                <li><strong>Free</strong> option 2</li>
-                                <li><strong>Unlimited</strong> option 3</li>
-                                <li><strong>Unlimited</strong> option 4</li>
-                                <li><strong>1x</strong> option 5</li>
-                            </ul>
-                            <a href="" class="purchase-btn">Purchase</a>
-                        </div>
-                        <!--.price-card small-card-->
-                    </div>
-                    <!--.col-md-3-->
-                    <div class="col-md-3">
-                        <div class="price-card small-card white-bg">
-                            <h4>Reseller cloud</h4>
-                            <div class="cost-block"><strong>$135/month</strong></div>
-                            <ul>
-                                <li><strong>5x</strong> <span>option 1</span></li>
-                                <li><strong>Free</strong> <span>option 2</span></li>
-                                <li><strong>Unlimited</strong><span> option 3</span></li>
-                                <li><strong>Unlimited</strong><span> option 4</span></li>
-                                <li><strong>5x</strong><span> option 5</span></li>
-                            </ul>
-                            <a href="" class="purchase-btn">Purchase</a>
-                        </div>
-                        <!--.price-card small-card-->
-                    </div>
-                    <!--.col-md-3-->
-                    <div class="col-md-3">
-                        <div class="price-card small-card white-bg">
-                            <h4>Dedicated hosting</h4>
-                            <div class="cost-block"><strong>$235/month</strong></div>
-                            <ul>
-                                <li><strong>10x</strong> option 1</li>
-                                <li><strong>Free</strong> option 2</li>
-                                <li><strong>Unlimited</strong> option 3</li>
-                                <li><strong>Unlimited</strong> option 4</li>
-                                <li><strong>10x</strong> option 5</li>
-                            </ul>
-                            <a href="" class="purchase-btn">Purchase</a>
-                        </div>
-                        <!--.price-card small-card-->
-                    </div>
-                    <!--.col-md-3-->
-                    <div class="col-md-3">
-                        <div class="price-card small-card white-bg">
-                            <h4>Website hosting</h4>
-                            <div class="cost-block"><strong>$10/month</strong></div>
-                            <ul>
-                                <li><strong>2x</strong> option 1</li>
-                                <li><strong>Free</strong> option 2</li>
-                                <li><strong>Unlimited</strong> option 3</li>
-                                <li><strong>Unlimited</strong> option 4</li>
-                                <li><strong>1x</strong> option 5</li>
-                            </ul>
-                            <a href="" class="purchase-btn">Purchase</a>
-                        </div>
-                        <!--.price-card small-card-->
-                    </div>
-                    <!--.col-md-3-->
-                </div>
-                <!--.pricing-row-->
-            </div>
-            <!--.pricing-tables-container-->
+        <!--.opinions-box-->
+        <span class="triangle-ops"></span>
+        <div class="clients-row">
+            <div class="cnt-1 cnt"><img src="images/c_1.png" alt=""/></div>
+            <div class="cnt-2 cnt"><img src="images/c_2.png" alt=""/></div>
+            <div class="cnt-3 cnt"><img src="images/c_3.png" alt=""/></div>
+            <div class="cnt-4 cnt"><img src="images/c_4.png" alt=""/></div>
+            <div class="cnt-5 cnt"><img src="images/c_5.png" alt=""/></div>
         </div>
-        <!--.container-->
     </div>
-    <!--.our-price-->
-
-    <div class="clients-opinion">
-        <div class="container">
-            <div class="box-header-gray">
-                <h3 class="head-lines">CLIENTS ABOUT US</h3>
-                <div class="quote-left col-md-4"></div>
-                <div class="quote col-md-4">
-                    <p>Donec leo elit, dignissim eu elit vitae, aliquam tincidunt purus. Proin id risus ut sem vehicula faucibus. Fusce sed libero nec quam tempus facilisis. Vestibulum venenatis nisl ac feugiat aliquet. Sed euismod ligula arcu, et mollis est volutpat et. Aenean sed nulla placerat neque lacinia ullamcorper.</p>
-                    <p class="author"><strong>#PERRY MALITON</strong></p>
-                </div>
-                <!--.quote.col-md-4-->
-                <div class="quote-right col-md-4"></div>
-            </div>
-        </div>
-        <!--.container-->
-    </div>
-    <!--.clients-opinion-->
+    <!--.container-->
 </section>
-<!--.pricing-->
+<!--.testimonials-->
 
-<section class="our-team">
-    <div class="browny-box">
-        <div class="container">
-            <div class="box-header">
-                <h2>Our team</h2>
-                <h3>We are professional and progressive team</h3>
+<section class="our-volunteers">
+    <div class="container">
+        <h3 class="box-header">BEST<span class="text-red">VOLUNTEER</span></h3>
+        <!--.box-header-->
+        <div class="vol_row">
+            <div class="vol_col column-3 small-12 large-6">
+                <img src="images/v_1.png" alt=""/>
+                <h5><span class="text-red">John Doe</span><span class="job-desc">Volunteer</span></h5>
             </div>
-            <!--.box-header-->
+            <!--.vol-col-->
+
+                <div class="vol_col column-3 small-12 large-6">
+                    <img src="images/v_2.png" alt=""/>
+                <h5><span class="text-red">John Doe</span><span class="job-desc">Volunteer</span></h5>
+            </div>
+            <!--.vol-col-->
+
+               <div class="vol_col column-3 small-12 large-6">
+                   <img src="images/v_3.png" alt=""/>
+                <h5><span class="text-red">John Doe</span><span class="job-desc">Volunteer</span></h5>
+            </div>
+            <!--.vol-col-->
+
+               <div class="vol_col column-3 small-12 large-6">
+                   <img src="images/v_4.png" alt=""/>
+                <h5><span class="text-red">John Doe</span><span class="job-desc">Volunteer</span></h5>
+            </div>
+            <!--.vol-col-->
         </div>
-        <!--.container-->
+        <!--.vol-row-->
     </div>
-    <!--.browny-box-->
-
-    <div class="about-us">
-        <div class="container">
-            <div class="box-header-gray">
-                <h3>About Us</h3>
-            </div>
-            <!--.box-header-gray-->
-
-            <div class="person-details col-md-3">
-                <img src="images/about_photo1.png" alt=""/>
-                <div class="name-det">Mark Cream</div>
-                <div class="role-det">Developer</div>
-                <p>Curabitur congue libero mi, et lacinia sem blandit sit amet. Donec eu mi non magna rhoncus bibendum et eu dui. Nunc iaculis placerat sapien vel imperdiet. </p>
-            </div>
-            <!--.col-md-3-->
-            <div class="person-details col-md-3">
-                <img src="images/about_photo2.png" alt=""/>
-                <div class="name-det">Antonio paramo</div>
-                <div class="role-det">Fire effects</div>
-                <p>Etiam pulvinar libero et scelerisque cursus. Sed eu nisl congue, gravida urna imperdiet, laoreet dolor. Morbi adipiscing neque erat, tincidunt 
-                    porttitor est vestibulum ac. </p>
-            </div>
-            <!--.col-md-3-->
-            <div class="person-details col-md-3">
-                <img src="images/about_photo3.png" alt=""/>
-                <div class="name-det">Mario Ballote</div>
-                <div class="role-det">Big Boss</div>
-                <p>Donec at pulvinar dolor, et lobortis est. Phasellus nibh nisi, blandit non velit sit amet, pulvinar vehicula nulla. </p>
-            </div>
-            <!--.col-md-3-->
-            <div class="person-details col-md-3">
-                <img src="images/about_photo4.png" alt=""/>
-                <div class="name-det">Ben Bugatton</div>
-                <div class="role-det">Designer</div>
-                <p>Mauris dignissim felis quis justo 
-                    malesuada gravida. Sed quis neque condimentum, luctus augue in, dapibus sapien.</p>
-            </div>
-            <!--.col-md-3-->
-        </div>
-        <!--.container-->
-    </div>
-    <!--.about-us-->
-
-    <div class="our-skills">
-        <div class="container">
-            <div class="box-header-gray">
-                <h3 class="head-lines">OUR SKILLS</h3>
-            </div>
-            <!--.box-header-gray-->
-        </div>
-        <!--.container-->
-    </div>
-    <!--.our-skills-->
+    <!--.container-->
 </section>
-
-
-<section class="prefooter">
-    <div class="browny-box">
-        <div class="container">
-            <div class="box-header">
-                <h2>YOU LOOKED OVER 6000PX</h2>
-                <h2>That's Great!</h2>
-            </div>
-            <!--.box-header-->
-        </div>
-        <!--.container-->
-    </div>
-    <!--.browny-box-->
-    
-    <div class="contact-us">
-        <div class="container">
-            <div class="box-header-gray">
-                <h3>Contact Us</h3>
-            </div>
-        </div>
-        <!--.container-->
-    </div>
-    <!--.contact-us-->
-</section>
-<!--.prefooter-->
-
+<!--.our-volunteers-->
 
 <?php include 'footer.php' ?>
